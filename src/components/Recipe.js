@@ -19,6 +19,8 @@ export default class Recipe extends Component {
                 <p>{title}</p>
                 <p>Źródło: {publisher}</p>
                 <button type="button">Więcej</button>
+                <br />
+                <a target="_blank" rel="noopener noreferrer" href={source_url}>{source_url}</a>
             </React.Fragment>
         )
     }
